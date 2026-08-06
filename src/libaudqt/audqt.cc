@@ -148,7 +148,7 @@ EXPORT void init()
 #endif
     qapp->setAttribute(Qt::AA_UseStyleSheetPropagationInWidgetStyles);
 
-    qapp->setApplicationName(_("Audacious"));
+    qapp->setApplicationName("Audacious");
     qapp->setQuitOnLastWindowClosed(false);
 
     sizes_local.OneInch =
