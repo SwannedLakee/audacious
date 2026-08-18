@@ -724,6 +724,8 @@ PrefsWindow::PrefsWindow()
     output_setup();
     record_setup();
     record_update();
+
+    setMinimumWidth(sizeHint().width());
 }
 
 void PrefsWindow::output_setup()
